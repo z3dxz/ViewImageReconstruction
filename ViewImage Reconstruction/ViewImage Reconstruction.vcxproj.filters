@@ -18,7 +18,16 @@
     <ClInclude Include="src\interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\uielement.h">
+    <ClInclude Include="src\ux_backends\uielement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ux_backends\dpi_handler\coordinate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ux_backends\ui_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ux_backends\button.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,7 +35,13 @@
     <ClCompile Include="src\starter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\uielement.cpp">
+    <ClCompile Include="src\ux_backends\uielement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ux_backends\dpi_handler\coordinate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ux_backends\ui_manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

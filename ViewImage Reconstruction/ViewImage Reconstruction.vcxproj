@@ -140,11 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\interface.h" />
-    <ClInclude Include="src\uielement.h" />
+    <ClInclude Include="src\ux_backends\button.h" />
+    <ClInclude Include="src\ux_backends\uielement.h" />
+    <ClInclude Include="src\ux_backends\dpi_handler\coordinate.h" />
+    <ClInclude Include="src\ux_backends\ui_manager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\starter.cpp" />
-    <ClCompile Include="src\uielement.cpp" />
+    <ClCompile Include="src\ux_backends\dpi_handler\coordinate.cpp" />
+    <ClCompile Include="src\ux_backends\uielement.cpp" />
+    <ClCompile Include="src\ux_backends\ui_manager.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
